@@ -10,7 +10,7 @@ class BigSum{
             result+=ar.get(i);
         }
         return result;
-    }
+    } 
 }
 public class VeryBigSum {
     public static void main(String[] args) {
