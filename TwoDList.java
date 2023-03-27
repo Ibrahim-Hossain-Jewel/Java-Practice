@@ -6,6 +6,7 @@ public class TwoDList {
         //execute for loop to find out the list of list.
         int x = 0;
         int y = 0;
+        //left to right diagonal problem solution
         for(int i =0; i<listOfLists.size(); i++){
             for(int j = 0; j<listOfLists.get(i).size(); j++){
                 if(i == j){
@@ -14,6 +15,7 @@ public class TwoDList {
                 }
             }
         }
+        //right to left diagonal problem solution
         for(int i = 0; i<listOfLists.size(); i++){
             for(int j = listOfLists.get(i).size() -1; j>-1; j--){
                 if(i+j == listOfLists.get(i).size() -1){
