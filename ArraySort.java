@@ -1,20 +1,21 @@
-import java.util.Arrays;
 
 public class ArraySort {
-    //implementing the sorting algorithm.
-    public static int[] sortingFunc(int[] arr){
-        Arrays.sort(arr);
-        return arr;
-    }
     public static void main(String[] args) {
-        int[] x = {300,1,11,344,88,2,99,376,44,50};
-        for (int i = 0; i < x.length; i++) {
-            System.out.print(x[i] + " ,");
+        //sort this array using bubble sort -> compare the second element with the first element
+        int arr[] = {4, 2, 3, 4, 2, 3, 4, 2, 3}; //reflecting in the original array.
+        int temp = 0;
+        String[] result = new String[arr.length];
+        for(int i = 0; i<arr.length; i++){
+            for(int j = i+1; j<arr.length; j++){
+                if(arr[i]> arr[j]){
+                    temp = arr[j];
+                    arr[j] = arr[i];
+                    arr[i]  =  temp;
+                }
+            }
+            System.out.print(arr[i]);
+            result[i] = arr[i] + ",";
         }
-        int[] yourArray = sortingFunc(x);
-        System.out.println("Your sorted array are below");
-        for (int i = 0; i < yourArray.length; i++) {
-            System.out.print(yourArray[i] + ", ");
-        }
+        
     }
 }

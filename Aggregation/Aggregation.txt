@@ -1,0 +1,2 @@
+//Aggregation is the class contains a reference to the class it owns. Aggregation best described as has-A relationship.
+Aggregation implemented to the employee class and address class this this package.
