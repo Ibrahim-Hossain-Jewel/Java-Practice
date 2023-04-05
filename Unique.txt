@@ -1,0 +1,5 @@
+* Quick learner
+* I love to solve programming related problem and learning new things every day
+*
+
+Data type, if statement and operator, function, switch statement, loop, DOM, Template literals, Destructuring, Exceptions, Object Oriented programming, classes, callback, promise,  the fetch API, Rest and spread, object properties, Map and sets and build tools 
